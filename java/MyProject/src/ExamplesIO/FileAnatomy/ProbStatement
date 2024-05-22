@@ -1,0 +1,11 @@
+1. create a function and check
+myFun(String Fname){
+//count - no of lines, no of words, no of char
+}
+
+2.
+countOccurrences(String Fname, String str){
+//count occurrence of the specif str
+}
+
+
