@@ -30,3 +30,22 @@ INSERT INTO markdetails (RollNo, phy, chem, maths) VALUES ('1003', 92, 81, 76);
 INSERT INTO markdetails (RollNo, phy, chem, maths) VALUES ('1004', 75, 89, 84);
 show tables;
 select * from markdetails;
+
+#addin new field to table
+alter table studentdetails add contactNum char(10);
+select * from studentdetails;
+update studentdetails set contactnum = '1234567890';
+
+#Removing column
+alter table studentdetails drop contactnum;
+select * from studentdetails;
+
+#modify
+alter table studentdetails modify address varchar(50);
+desc studentdetails;
+
+#aggrigate function
+select * from markdetails;
+select sum(phy),avg(phy) from markdetails;
+select count(city) from studentdetails;
+select count(distinct city) from studentdetails;
