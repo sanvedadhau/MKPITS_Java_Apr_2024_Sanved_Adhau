@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sanved Adhau">
+        <meta name="description" content="Generating Form using HTML">
+        <meta name="keywords" content="HTML">
+        <title>
+            Random Form
+        </title>
+        <link rel="icon" href="https://tinyurl.com/4pnrymy7" type="image/jpg">
+    </head>
+    <body>
+        <form name="GeneralForm" id="GeneralForm" method="post">
+            <h2>Please fill the Form</h2>
+            <hr/>
+            <ul>
+                <!-- <dialog open>
+                    <p>Please fill the From</p>
+                    <form method="dialog">
+                      <button>OK</button>
+                    </form>
+                </dialog> -->
+            <fieldset> <legend>&#160; Name Info &#160;</legend>
+            
+                <label for="First Name">First Name : </label>
+                <input id="First Name" type="text" placeholder="Enter your First name" autocomplete="on" id="GeneralForm" required>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;    
+                    <!-- <br/>
+                    <br/> -->
+            
+                <label for="Last Name">Last Name : </label>
+                <input id="Last Name" type="text" placeholder="Enter your Last name" autocomplete="on" id="GeneralForm" required>
+                
+            </fieldset>
+
+                    <br/>
+                <li>
+                    <label for="Email ID">Email ID : </label>
+                    <input id="Email ID" type="email" placeholder="Enter your Email ID" autocomplete="on" id="GeneralForm" required>
+                </li>
+                    <br/>
+                <li>
+                    <label for="City">City : </label>
+                    <select name="City"  id="GeneralForm">
+                        <option value="" disabled selected>Select a city <i class='fas fa-angle-double-down'></i></option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Amravati">Amravati</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </li>
+                    <br/>
+                <li>
+                    <label for="Software-dev">Choose a Programming Language:</label>
+                    <select id="Software-dev">
+                        <option value="" disabled selected>Select a Language <i class='fas fa-angle-double-down'></i></option>
+                        <optgroup label="Programming">
+                            <option>Java</option>
+                            <option>C++</option>
+                            <option>Python</option>
+                          </optgroup>
+                          <optgroup label="Web Developement">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                          </optgroup>
+                    </select>
+                </li>
+                    <br>
+                <li>
+                    <label for="Pincode">Pincode : </label>
+                    <input id="Pincode" type="number" placeholder="Enter your Pincode" autocomplete="on" id="GeneralForm">
+                </li>
+                    <br/>
+                <li>
+                    <label for="Birthday">Birthday : </label>
+                    <input id="Birthday" type="date" name="birthday" min="1947-01-01" max="2024-12-31" id="GeneralForm">
+                </li>
+                    <br/>
+                <li>
+                    <label for="Gender">Gender : </label>
+                    <!-- we have give same name to avoid multiple selection -->
+                    <input id="Gender" type="radio" name="Gender" value="Male" id="GeneralForm">Male
+                    <input id="Gender" type="radio" name="Gender" value="Female" id="GeneralForm">Female
+                    <input id="Gender" type="radio" name="Gender" value="Other" id="GeneralForm">Other
+                </li>
+                    <br/>
+                <li>
+                    <label>Hobbies:</label>
+                    <label for="hobbyReading">Reading</label>
+                    <input type="checkbox" id="hobbyReading" name="hobbies" value="Reading" id="GeneralForm">
+                    
+                    <label for="hobbyTraveling">Traveling</label>   
+                    <input type="checkbox" id="hobbyTraveling" name="hobbies" value="Traveling" checked="checked" id="GeneralForm">
+                    
+                    <label for="hobbyGaming">Gaming</label>   
+                    <input type="checkbox" id="hobbyGaming" name="hobbies" value="Gaming" id="GeneralForm">
+                    
+                    <label for="hobbyCooking">Cooking</label>   
+                    <input type="checkbox" id="hobbyCooking" name="hobbies" value="Cooking" id="GeneralForm">  
+                </li>
+                    <br/>
+                <li>
+                    <label for="Messages">Message : </label>
+                    <textarea id="Message" rows="10" cols="40" placeholder="Leave a Message" id="GeneralForm" wrap="soft"></textarea>
+                </li>
+                    <br/>
+                <li>
+                    <label for="Password">Password : </label>
+                    <input id="Password" type="password" placeholder="Must be 8 charecter long" novalidate="novalidate" id="GeneralForm" minlength="8">
+                </li>
+                    <br/>
+                <button type="submit" id="GeneralForm">Submit</button>
+                <button type="reset" id="GeneralForm">Reset</button>
+            </ul>
+        </form>
+        <footer>
+           
+            <center>
+                <hr />
+                Get in touch - <a href="mailto:sanvedadhau2016@gmail.com">sanvedadhau2016@gmail.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                <strong><em>&copy; 2024 Sanved. All rights reserved</em></strong>
+               
+            </center>
+        </footer>
+    </body>
+</html>
+
