@@ -1,0 +1,22 @@
+/* Make external selector ELEMENT SELECTOR */
+/* Make class selector written as.CLASS */
+/* Make ID selector written as #ID */
+
+
+/* ELEMENT SELECTOR Input fields with required attribute */
+input:required {
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
+
+/* Class selector for dialog box */
+.dialog-box {
+    border: 2px solid crimson;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+/* ID selector for box shadow */
+#dialog-box-shadow {
+    box-shadow: 2px 2px 2px red;
+}
